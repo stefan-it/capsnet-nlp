@@ -7,10 +7,9 @@
 This repository shows how to use a *CapsNet* architecture for Natural Language
 Prcoessing tasks like sentiment analysis.
 
-*Capsules* are introduced by Geoffrey Hinton. We use a modified *CapsNet*
-implementation in Keras from
-[this](https://www.kaggle.com/chongjiujjin/capsule-net-with-gru) Kaggle
-competition.
+*Capsules* are introduced by Geoffrey Hinton. We use a *CapsNet*
+implementation from 苏剑林 as git submodule. The implementation can be found
+[here](https://github.com/bojone/Capsule).
 
 ## Related work
 
