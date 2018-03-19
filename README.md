@@ -22,6 +22,16 @@ introduced:
 | *Matrix capsules with EM routing*  | Geoffrey E Hinton et al.                        | [here](https://openreview.net/forum?id=HJWLfGWRb)
 | *Transforming Auto-encoders*       | Geoffrey E. HintonAlex Krizhevsky, Sida D. Wang | [here](http://www.cs.toronto.edu/~fritz/absps/transauto6.pdf)
 
+## Submodules
+
+The *CapsNet* implementation is included via git submodule. So the **first**
+step after cloning *this* repository is to initialize the git submodules. This
+can be done via:
+
+```bash
+git submodule update --init --recursive
+```
+
 # *IMDB*
 
 We use the *IMDB* dataset for sentiment analysis with *CapsNet*. We use a
