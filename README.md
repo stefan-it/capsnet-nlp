@@ -7,10 +7,9 @@
 This repository shows how to use a *CapsNet* architecture for Natural Language
 Prcoessing tasks like sentiment analysis.
 
-*Capsules* are introduced by Geoffrey Hinton. We use a modified *CapsNet*
-implementation in Keras from
-[this](https://www.kaggle.com/chongjiujjin/capsule-net-with-gru) Kaggle
-competition.
+*Capsules* are introduced by Geoffrey Hinton. We use a *CapsNet*
+implementation from 苏剑林 as git submodule. The implementation can be found
+[here](https://github.com/bojone/Capsule).
 
 ## Related work
 
@@ -22,6 +21,16 @@ introduced:
 | *Dynamic Routing Between Capsules* | Sara Sabour, Nicholas Frosst, Geoffrey E Hinton | [here](https://arxiv.org/abs/1710.09829)
 | *Matrix capsules with EM routing*  | Geoffrey E Hinton et al.                        | [here](https://openreview.net/forum?id=HJWLfGWRb)
 | *Transforming Auto-encoders*       | Geoffrey E. HintonAlex Krizhevsky, Sida D. Wang | [here](http://www.cs.toronto.edu/~fritz/absps/transauto6.pdf)
+
+## Submodules
+
+The *CapsNet* implementation is included via git submodule. So the **first**
+step after cloning *this* repository is to initialize the git submodules. This
+can be done via:
+
+```bash
+git submodule update --init --recursive
+```
 
 # *IMDB*
 
