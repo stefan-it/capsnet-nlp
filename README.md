@@ -64,8 +64,8 @@ is currently supported.
 
 # Contact (Bugs, Feedback, Contribution and more)
 
-For questions about the *capsnet-nlp* repository, contact the current maintainer:
-Stefan Schweter <stefan@schweter.it>. If you want to contribute to the project
+For questions about the *capsnet-nlp* repository, please open an issue [here](https://github.com/stefan-it/capsnet-nlp/issues). 
+If you want to contribute to the project
 please refer to the [Contributing](CONTRIBUTING.md) guide!
 
 # License
